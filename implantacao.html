@@ -116,11 +116,11 @@
                         <div class="col-footer">
                             <h4>Serviços</h4>
                             <ul class="lista">
+                                <li>Desenvolvimento de Sistemas Sob Medida</li>
                                 <a href="consult.html">
                                     <li>Consultoria em Transformação Digital</li>
                                 </a>
                                 <li>Integração de Sistemas</li>
-                                <li>Implantação e Customização de ERPs e CRMs</li>
                                 <li>Surporte Técnico e Manutenção Evolutiva</li>
                             </ul>
                         </div>
@@ -164,4 +164,15 @@
             </div>
         </footer>
     </body>
+    <script>
+        window.onscroll = function() {
+            const header = document.querySelector('.topo');
+            
+            if (window.scrollY > 350) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        };
+    </script>
 </html>
